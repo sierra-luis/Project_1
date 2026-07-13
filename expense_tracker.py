@@ -14,7 +14,7 @@ class ExpenseTracker:
             print("[                 EXPENSES                  ]")
             print("---------------------------------------------")
             for expense in self.expenses:
-                print(f"Expense:{expense.description}  Amount: ${expense.amount:.2f}")
+                print(expense)
 
     def calculate_total(self):
         total = 0
