@@ -1,4 +1,4 @@
 class Expense:
-    def __init__(self,name,amount):
-        self.name = name 
+    def __init__(self,description,amount):
+        self.description = description 
         self.amount = amount  
