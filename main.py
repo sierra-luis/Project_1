@@ -4,9 +4,10 @@ while option != "3":
     print("==== Expense Tracker ====")
     print("1. Add Expense")
     print("2. Show Expenses")
-    print("3. Exit")
+    print("3. Calculate Total Spent")
+    print("4. Exit")
 
-    option = input("Select an action : ( 1 / 2 / 3 ) ")
+    option = input("Select an action : ( 1 / 2 / 3 / 4 ) ")
 
     match option:
         case "1":
@@ -18,10 +19,10 @@ while option != "3":
             expenses.show_expenses()
 
         case "3":  
+            expenses.calculate_total()
+
+        case "4":
             print("Thanks for using the app, see you next time")
 
         case _:
             print("The selected option is not valid, enter it again")  
-
-
-

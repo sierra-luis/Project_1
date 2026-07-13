@@ -21,12 +21,3 @@ class ExpenseTracker:
             print("---------------------------------------------")
             for expense in self.expenses:
                 expense.print_expenses()
-
-
-    
-               
-
-
-
-
-        
