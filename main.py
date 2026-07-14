@@ -17,9 +17,18 @@ while option != "3":
     
         case "2":
             expenses.show_expenses()
+            print("=============================================")
+            print("[                 EXPENSES                  ]")
+            print("---------------------------------------------")
+            if len(expenses) <=0: 
+                print("There are no expenses yet") 
+            else: 
+                for expense in expenses: 
+                    print(expense)
 
         case "3":  
             expenses.calculate_total()
+            print(total)
 
         case "4":
             print("Thanks for using the app, see you next time")
